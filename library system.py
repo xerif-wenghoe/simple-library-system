@@ -236,6 +236,8 @@ def searchBook(id, role):
 
         if books[reference][3] == "Available" :
             borrowBook(id, role, reference)
+        else: 
+            returnToMainMenu(id, role)
 
     elif reference in specialBookListName:
         reference = specialBookListKeys[specialBookListName.index(reference)].upper()
@@ -249,6 +251,8 @@ def searchBook(id, role):
 
         if books[reference][3] == "Available" :
             borrowBook(id, role, reference)
+        else: 
+            returnToMainMenu(id, role)
 
     elif reference in specialBookListAuthor:
         reference = specialBookListKeys[specialBookListAuthor.index(reference)].upper()
@@ -262,6 +266,8 @@ def searchBook(id, role):
 
         if books[reference][3] == "Available" :
             borrowBook(id, role, reference)
+        else: 
+            returnToMainMenu(id, role)
 
     elif reference in specialBookListSubject:
         reference = specialBookListKeys[specialBookListSubject.index(reference)].upper()
@@ -275,6 +281,8 @@ def searchBook(id, role):
 
         if books[reference][3] == "Available" :
             borrowBook(id, role, reference)
+        else: 
+            returnToMainMenu(id, role)
 
     else:
         print("\nThe book you searched for is not found")
