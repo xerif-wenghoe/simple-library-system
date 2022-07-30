@@ -165,7 +165,6 @@ def testAction(value, text, role):
             except ValueError:
                 print("\nPlease enter a valid action")
                 value = input(text)
-                print(2)
 
         if role == 1:
             if value < 1 or value > 5:
