@@ -1,0 +1,17 @@
+User list
+
+2203332 --> 040303-03-0303
+2203333 --> 040404-04-0404
+
+Admin list
+
+2203006 --> 040814-08-0617
+
+list of book
+
+book id : [title, author's name, subject]
+"A001" : ["Introduction to Python", "Y. Daniel Liang", "Computer Science", "Available"],
+"A002" : ["Introduction to Biology", "name1", "Biology", "Not Available"],
+"A003" : ["Introduction to Physics", "name2", "Physics", "Not Available"],
+"A004" : ["Introduction to Chemistry", "name3", "Chemistry", "Not Available"],
+"A005" : ["Introduction to Calculus", "name4", "Maths", "Not Available"]
